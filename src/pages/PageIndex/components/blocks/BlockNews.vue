@@ -44,7 +44,11 @@
       <swiper-slide v-for="(slide, idx) in slidesNews" :key="idx" class="flex flex-col">
         <div class="text-dark border border-[#D9D9D9] flex flex-col flex-grow">
           <div class="relative pb-[55%] mb-[1.6rem]">
-            <img class="absolute object-contain w-full h-full" :src="`/assets/images/${slide.img}.png`" alt="" />
+            <img
+              class="absolute object-contain w-full h-full"
+              :src="`/test-osminojka/images/${slide.img}.png`"
+              alt=""
+            />
           </div>
           <div class="px-[1.2rem] pb-[1.2rem] flex flex-col flex-grow">
             <div class="flex items-center text-sm mb-[1.2rem]">
