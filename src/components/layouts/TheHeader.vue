@@ -28,13 +28,13 @@
       </div>
       <div class="flex items-center gap-[2.6rem] sm:gap-[3.4rem]">
         <div class="flex gap-[2rem]">
-          <button class="inline-flex">
+          <button class="inline-flex hover:translate-y-[-0.2rem] transition-all">
             <IconLoupe />
           </button>
-          <button class="hidden md:inline-flex">
+          <button class="hidden md:inline-flex hover:translate-y-[-0.2rem] transition-all">
             <IconMicro />
           </button>
-          <button class="inline-flex order-first md:order-none">
+          <button class="inline-flex order-first md:order-none hover:translate-y-[-0.2rem] transition-all">
             <IconHeart />
           </button>
         </div>
